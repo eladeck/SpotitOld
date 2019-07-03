@@ -1,0 +1,15 @@
+[
+	{
+		"brand": "Boeing",
+		"model": "737-800",
+		"company": "EL-AL",
+		"image": "El_Al_Boeing_737-800.jpg"
+	},
+	
+	{
+		"brand": "Airbus", 
+		"model": "A380-300",
+		"company": "British Airways",
+		"image": "British_Airways_Airbus_A380.jpg"
+	}
+]
