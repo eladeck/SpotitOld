@@ -31,6 +31,7 @@ class Feed extends Component {
             return(
                 <div className="image-wrapper">
                     <h2>{el.user}</h2>
+                    <div className='img-grade'>&#9733; &#9733; &#9733; &#9734; &#9734;</div>
                     <img src={el.url} alt="not working" />
                 </div>
             )

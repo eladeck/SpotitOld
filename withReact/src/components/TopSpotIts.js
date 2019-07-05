@@ -17,8 +17,18 @@ class TopSpotIts extends Component {
             <div className="top-spotits">
                 <h1 className="clickable-title title">Top Spotits</h1>
                  <ul>
-                    <li>Elad Eckstein (Top-Hit)</li>
-                    <li>Dur Ben Lulu (Top-Hit)</li>
+                    <li>
+                        <div className='top-spotit-user'>
+                            <img style={{maxWidth:"12%"}} src={'./img/camera-logo.png'}></img>
+                            Elad Eckstein (Top-Hit)
+                        </div>
+                    </li>
+                    <li>
+                        <div className='top-spotit-user'>
+                            <img style={{maxWidth:"12%"}} src={'./img/camera-logo.png'}></img>
+                            Dor Ben Lulu (Top-Hit)
+                        </div>
+                    </li>
                 </ul>  
             </div>
         );

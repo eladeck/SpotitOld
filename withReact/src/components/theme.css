@@ -10,15 +10,15 @@ nav {
     font-family: 'Hind Madurai', sans-serif;
   }
 
-  /* scroll design */
+  /* scroll-bar design
   ::-webkit-scrollbar {
     width: 50px;
     height: 50px;
     }
     
-    /* Track */
+    // Track
     ::-webkit-scrollbar-track {
-    /* background:url("runway.png"); and to change the scroll to airplane on runway :) */
+    // background:url("runway.png"); and to change the scroll to airplane on runway :) 
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     }
@@ -30,7 +30,7 @@ nav {
     
     ::-webkit-scrollbar-corner {
     background: rgba(0,0,0,0);
-    }
+    } */
   
   .top-spotits {
     text-align:center;
@@ -101,6 +101,14 @@ nav {
   .image-wrapper > img {
       width:100%;
   }
+
+  .img-grade {
+    position: absolute;
+    width: fit-content;
+    margin-top:270px;
+    padding:5px;
+    font-size: 2em;
+  }
   
   .image-wrapper > h2 {
       position: absolute;
@@ -149,7 +157,7 @@ nav {
   .container {
     max-width: 120rem;
     /*margin: 4vw auto;*/
-    background-color: #fff;
+    background-color: rgba(241, 231, 231, 0.322);
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
@@ -197,6 +205,17 @@ nav {
     border-radius: 18px;
     border: 1px solid #cfcece;
   }
-
   /*MODAL*/
+
+  .top-spotit-user {
+    background-image:linear-gradient(to right, rgba(187, 234, 236, 0.342), rgba(11, 187, 231, 0.486), rgba(187, 234, 236, 0.342));
+    /* background-image:linear-gradient(to right, rgb(11, 187, 231), rgba(187, 234, 236, 0.342)); */
+    display: inline-block;
+    width: 334px;
+    border-radius: 15%;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:2em;
+
+  }
   

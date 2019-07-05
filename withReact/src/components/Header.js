@@ -18,6 +18,7 @@ class Header extends Component {
             display:"inline-block",
             top:"3%",
             position:"sticky",
+            marginBottom:"8px",
             marginLeft:"25px",
             color:"#f5fff6",
         };
@@ -32,6 +33,7 @@ class Header extends Component {
                 display:"inline-block",
                 top:"3%",
                 position:"sticky",
+                marginBottom:"8px",
                 marginLeft:"1000px",
                 color:"#f5fff6",
                 textAlign:"right",
@@ -45,8 +47,18 @@ class Header extends Component {
                 display:"inline-block",
                 marginLeft:"1438px",
                 position:"relative",
-                top: "-47px",
+                top: "-165px",
             }
+            var airplaneLogo ={
+                maxWidth:"71%",
+                maxHeight:"179%",
+                borderRadius:"50%",
+                display:"inline-block",
+                marginLeft:"700px",
+                position:"relative",
+                top: "-69px",
+            }
+
 
         
         return (
@@ -55,6 +67,7 @@ class Header extends Component {
                 <div style={titleStyle}>Spotit</div>
                 <input placeHolder="Search..." style={inputStyle} type="textbox"></input>
                 <div style={aboutStyle}>About</div>
+                <img onClick={() => alert("--you won profile--")} style={airplaneLogo} src={"./img/airplane.png"} alt="not working" />
                 <img onClick={() => alert("--you won profile--")} style={pilotLogoStyle} src={"./img/pilot-logo.jpg"} alt="not working" />
             </nav>
         );
